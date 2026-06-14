@@ -35,7 +35,7 @@ main {
     text-align: center;
     margin-top: .3rem;
     border-bottom: .1rem solid rgba(102, 31, 3, 0.671);
-    background-color: #1d1c1c7e;
+    background-color: #4645452f;
 
     & {
         img {
@@ -48,7 +48,7 @@ main {
 h1 {
     font-size: .5rem;
     font-weight: 300;
-    color: rgb(208, 209, 209);
+    color: rgb(134, 133, 132);
     margin-top: .7rem;
 
     & {
@@ -56,7 +56,7 @@ h1 {
             font-size: .82rem;
             font-weight: 600;
             margin-left: .1rem;
-            color: rgba(107, 107, 106, 0.829);
+            color: rgb(173, 173, 173);
         }
     }
 }
