@@ -34,7 +34,7 @@ main {
     justify-content: center;
     text-align: center;
     margin-top: .3rem;
-    border-bottom: .1rem solid rgba(240, 248, 255, 0.438);
+    border-bottom: .1rem solid #308dda;
     background-color: #4645452f;
 
     & {
@@ -48,7 +48,7 @@ main {
 h1 {
     font-size: .5rem;
     font-weight: 300;
-    color: rgba(240, 248, 255, 0.438);
+    color: rgb(158, 158, 158);
     margin-top: .7rem;
 
     & {
@@ -56,7 +56,7 @@ h1 {
             font-size: .82rem;
             font-weight: 600;
             margin-left: .1rem;
-            color: rgb(173, 173, 173);
+            color: rgb(197, 194, 194);
         }
     }
 }
@@ -75,5 +75,4 @@ h6 {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
-    border-bottom: .2rem solid rgba(240, 248, 255, 0.438);
 }
