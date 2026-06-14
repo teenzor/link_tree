@@ -40,6 +40,7 @@ main {
     & {
         img {
             object-fit: cover;
+            width: .7rem;
         }
     }
 }
