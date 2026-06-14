@@ -9,13 +9,12 @@
 }
 
 body {
-    background-color: #111;
+    background-color: #242323;
     color: aliceblue;
 }
 
 main {
-    background-color: blueviolet;
-    height: 13.5rem;
+    height: 12.7rem;
     margin-top: 2rem;
     padding-top: .9rem;
 }
@@ -25,14 +24,45 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 1rem;
+    margin-top: .6rem;
+}
+
+.infor-selo {
+    background-color: #00000057;
+    padding: .1rem .2rem .1rem .35em;
+    border-radius: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: .2rem;
 }
 
 .img-profile {
-    width: 7rem;
+    width: 6.1rem;
     height: auto;
     object-fit: cover;
     display: block;
     margin: 0 auto;
     border-radius: 50%;
+}
+
+h1 {
+    font-size: .5rem;
+    font-weight: 200;
+
+    & {
+        span {
+            font-size: .9rem;
+            font-weight: 500;
+            margin-left: .2rem;
+        }
+    }
+}
+
+h6 {
+    font-size: .40rem;
+    font-weight: 370;
+    margin-right: .3rem;
+    opacity: 0.9;
 }
