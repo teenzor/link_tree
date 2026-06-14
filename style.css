@@ -16,7 +16,6 @@ body {
 main {
     height: 12.7rem;
     padding-top: .9rem;
-    background-color: rgb(90, 48, 138);
 }
 
 .user-description {
@@ -28,14 +27,15 @@ main {
 }
 
 .infor-selo {
-    background-color: #6d6b6b3a;
     padding: .1rem .2rem .1rem .35em;
     border-radius: .7rem;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: .1rem;
+    margin-top: .3rem;
+    border-bottom: .1rem solid rgba(102, 31, 3, 0.671);
+    background-color: #1d1c1c7e;
 
     & {
         img {
@@ -45,27 +45,18 @@ main {
     }
 }
 
-.img-profile {
-    width: 6.1rem;
-    height: auto;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-}
-
 h1 {
     font-size: .5rem;
     font-weight: 300;
-    color: rgb(209, 208, 208);
+    color: rgb(208, 209, 209);
     margin-top: .7rem;
 
     & {
         span {
             font-size: .82rem;
-            font-weight: 500;
+            font-weight: 600;
             margin-left: .1rem;
-            color: aliceblue;
+            color: rgba(107, 107, 106, 0.829);
         }
     }
 }
@@ -75,4 +66,14 @@ h6 {
     font-weight: 370;
     margin-right: .3rem;
     opacity: 0.9;
+}
+
+.img-profile {
+    width: 6.1rem;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border-bottom: .24rem solid rgba(102, 31, 3, 0.671);
 }
