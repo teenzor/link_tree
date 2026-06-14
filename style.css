@@ -28,7 +28,7 @@ main {
 }
 
 .infor-selo {
-    background-color: #00000057;
+    background-color: #6d6b6b3a;
     padding: .1rem .2rem .1rem .35em;
     border-radius: .7rem;
     display: flex;
@@ -57,12 +57,14 @@ main {
 h1 {
     font-size: .5rem;
     font-weight: 300;
+    color: rgb(175, 172, 172);
 
     & {
         span {
             font-size: .82rem;
             font-weight: 500;
             margin-left: .1rem;
+            color: aliceblue;
         }
     }
 }
