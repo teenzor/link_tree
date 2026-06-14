@@ -15,9 +15,8 @@ body {
 
 main {
     height: 12.7rem;
-    margin-top: 2rem;
     padding-top: .9rem;
-    background-color: rgb(22, 6, 41);
+    background-color: rgb(90, 48, 138);
 }
 
 .user-description {
@@ -25,7 +24,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: .6rem;
+    margin-top: .9rem;
 }
 
 .infor-selo {
@@ -36,7 +35,7 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: .2rem;
+    margin-top: .1rem;
 
     & {
         img {
@@ -59,6 +58,7 @@ h1 {
     font-size: .5rem;
     font-weight: 300;
     color: rgb(209, 208, 208);
+    margin-top: .7rem;
 
     & {
         span {
