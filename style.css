@@ -34,7 +34,7 @@ main {
     justify-content: center;
     text-align: center;
     margin-top: .3rem;
-    border-bottom: .1rem solid #308dda;
+    border-bottom: .1rem solid rgba(240, 248, 255, 0.438);
     background-color: #4645452f;
 
     & {
@@ -75,5 +75,5 @@ h6 {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
-    border-bottom: .25rem solid #308dda9d;
+    border-bottom: .2rem solid rgba(240, 248, 255, 0.438);
 }
