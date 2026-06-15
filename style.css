@@ -19,13 +19,12 @@ main {
     justify-content: center;
     gap: 0rem .5rem;
     background-color: rgb(43, 101, 226);
+}
 
-    & {
-        img {
-            width: 5.7rem;
-            border-radius: 50%;
-        }
-    }
+.img-profile {
+    width: 5.7rem;
+    border-radius: 50%;
+    border-bottom: .15rem solid aliceblue;
 }
 
 section {
