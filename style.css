@@ -57,7 +57,7 @@ article {
     justify-content: center;
     border-bottom: .1rem solid aliceblue;
     border-radius: 0rem 0rem .6rem .6rem;
-    padding: .1rem .25rem .11rem .4rem;
+    padding: .1rem .25rem .11rem .3rem;
 
     & {
         h2 {
