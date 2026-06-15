@@ -10,4 +10,55 @@
 
 body {
     background-color: #111;
+    color: aliceblue;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0rem 1rem;
+    background-color: rgb(43, 101, 226);
+
+    & {
+        img {
+            width: 6.1rem;
+            border-radius: 50%;
+        }
+    }
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem 0rem;
+
+    & {
+
+        h1 {
+            font-size: 1rem;
+            margin-left: .7rem;
+        }
+    }
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & {
+        h2 {
+            font-size: .7rem;
+        }
+
+        img {
+            width: 1rem;
+            height: auto;
+            object-fit: cover;
+        }
+
+    }
 }
