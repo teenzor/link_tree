@@ -14,15 +14,17 @@ body {
 }
 
 main {
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0rem .5rem;
-    background-color: rgb(43, 101, 226);
+    border-bottom: .2rem solid rgb(168, 30, 12);
+    border-radius: 0rem 0rem .7rem .7rem ;
 }
 
 .img-profile {
-    width: 5.7rem;
+    width: 5rem;
     border-radius: 50%;
     border-bottom: .15rem solid aliceblue;
 }
